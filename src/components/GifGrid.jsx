@@ -4,7 +4,7 @@ import { getGifs } from "../helpers/getGifs"
 
 export const GifGrid = ({ category }) => {
 
-    getGifs(categor
+    getGifs(category)
 
     return (
         <>
@@ -17,4 +17,5 @@ export const GifGrid = ({ category }) => {
             } */}
         </>
     )
+
 }
