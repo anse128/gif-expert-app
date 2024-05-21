@@ -1,5 +1,5 @@
 
-expor const getGifs = async (category) => {
+export const getGifs = async (category) => {
     const url = `https://api.giphy.com/v1/gifs/trending?api_key=4q9wYDgLmnMJY4cH3tu04CIbYBv3w9Aa&q=${category}&limit=20`
     const resp = await fetch(url)
     const { data } = await resp.json()
@@ -12,4 +12,5 @@ expor const getGifs = async (category) => {
 
     console.log(gifs)
     // return gifs
+    //
 }
