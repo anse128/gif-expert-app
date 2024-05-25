@@ -28,7 +28,6 @@ export const AddCategory = ({ onNewCategory }) => {
                 value={inputValue}
                 // onChange={(event) => onInputChange(event)}
                 onChange={onInputChange}
-            //.
             />
         </form>
     )
