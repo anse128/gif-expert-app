@@ -27,6 +27,8 @@ export const AddCategory = ({ onNewCategory }) => {
                 placeholder="Buscar gifs"
                 value={inputValue}
                 // onChange={(event) => onInputChange(event)}
+
+                ///
                 onChange={onInputChange}
             />
         </form>
